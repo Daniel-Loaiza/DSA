@@ -93,7 +93,7 @@ class SinglyLinkedList:
                 currentnode = currentnode.getNext()
             
             previousnode.setNext(None)
-            self.length -= l
+            self.length -= 1
 
     ##Delete with node from linked list
     def deleteFromSinglyLinkedListWithNode(self, node):
