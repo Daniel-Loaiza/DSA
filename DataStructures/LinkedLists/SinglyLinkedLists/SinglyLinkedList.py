@@ -60,7 +60,7 @@ class SinglyLinkedList:
                 self.insertAtBeginning(data)
             else:
                 if pos ==self.length :
-                    self.insertAtEnd(self, data)
+                    self.insertAtEnd(data)
                 else:
                     newNode = Node()
                     newNode.setData(data)
